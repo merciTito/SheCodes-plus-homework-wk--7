@@ -38,6 +38,7 @@ function displayTemperature(response) {
 }
 
 let apiKey = "dce3e832d27513effce369fc2d6a40a3";
+let city = "Paris";
 
 let apiUrl = `https://samples.openweathermap.org/data/2.5/find?q=New York&appid=${apiKey}&units=metric`;
 console.log(apiUrl);
